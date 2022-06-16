@@ -1,0 +1,82 @@
+[
+  {
+    "id": "builtin_text-iVBzXn",
+    "formData": {
+      "text$en": "I'm sorry, I did not understand. Please ask me something else.",
+      "typing$en": true,
+      "text$fr": "Pardon, je n'ai pas compris. Veuillez me poser un autre question.",
+      "typing$fr": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-01T18:28:03.566Z",
+    "modifiedOn": "2019-07-01T18:31:39.862Z"
+  },
+  {
+    "id": "builtin_text-error",
+    "formData": {
+      "text$en": "😯 Oops! We've got a problem. Please try something else while we're fixing it 🔨",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-09-03T18:58:10.702Z",
+    "modifiedOn": "2019-09-03T18:58:10.702Z"
+  },
+  {
+    "id": "builtin_text-rEdS6r",
+    "formData": {
+      "text$en": "Bs.5,75 según BCV",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-07T15:36:36.216Z",
+    "modifiedOn": "2022-06-07T15:36:36.216Z"
+  },
+  {
+    "id": "builtin_text-cPEKo_",
+    "formData": {
+      "text$en": "📡Banco banesco\nECONETT, C.A.\nJ-41326552-4\n0134 0062 8406 2104 5291\n\n📡Banesco Panamá\nCuenta corriente\nNombre: Río Orinoco Oil\nCuenta: 201800310149\nSwift: BANSPAPA\n\n📡01050110511110367074 \nMercantil \nEconett Ca \nJ-41326552-4\n\n📡PAGO MOVIL                                                                                            Banco mercantil \nEconett Ca\nJ-41326552-4\n04147936355\n\n📡Consulta nuestro Binance",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-07T15:38:01.098Z",
+    "modifiedOn": "2022-06-08T18:48:02.818Z"
+  },
+  {
+    "id": "builtin_text-8-pH6N",
+    "formData": {
+      "text$en": "Informaciòn de S.T",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-07T16:06:36.994Z",
+    "modifiedOn": "2022-06-07T16:06:36.994Z"
+  },
+  {
+    "id": "builtin_text-kkARlQ",
+    "formData": {
+      "text$en": "Info.Ventas",
+      "markdown$en": true,
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-07T16:07:08.702Z",
+    "modifiedOn": "2022-06-07T16:07:08.702Z"
+  },
+  {
+    "id": "builtin_text--lr_B-",
+    "formData": {
+      "text$en": "http://zonaclientes.sytes.net:8092/cliente/login\n\nEn caso de no tener las credenciales de acceso, escriba al +58 412-8407046",
+      "markdown$en": true,
+      "typing$en": true,
+      "variations$en": [
+        ""
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-08T15:15:26.135Z",
+    "modifiedOn": "2022-06-08T16:47:50.604Z"
+  }
+]

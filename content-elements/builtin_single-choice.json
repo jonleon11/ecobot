@@ -1,0 +1,56 @@
+[
+  {
+    "id": "builtin_single-choice-KQ093B",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Administración",
+          "value": "1"
+        },
+        {
+          "title": "Soporte",
+          "value": "2"
+        },
+        {
+          "title": "Ventas",
+          "value": "3"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "Bienvenido a Econet Barcelona!, Soy ONDY 📡🚀, un sistema de asistencia virtual 🤖\n📞 Call Center: +58412-9450053  |  \n✉ Email: ventas@econetwifi.com |\nFavor seleccione el Dpto: 👇"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-07T15:33:22.461Z",
+    "modifiedOn": "2022-06-08T16:14:11.072Z"
+  },
+  {
+    "id": "builtin_single-choice-8Qkd28",
+    "formData": {
+      "dropdownPlaceholder$en": "Select...",
+      "choices$en": [
+        {
+          "title": "Tasa del dìa",
+          "value": "1"
+        },
+        {
+          "title": "Info Cta Bancarias",
+          "value": "2"
+        },
+        {
+          "title": "Reportar Pago",
+          "value": "3"
+        }
+      ],
+      "markdown$en": true,
+      "disableFreeText$en": false,
+      "typing$en": true,
+      "text$en": "Seleccione un item:"
+    },
+    "createdBy": "admin",
+    "createdOn": "2022-06-07T15:35:33.120Z",
+    "modifiedOn": "2022-06-08T15:13:44.145Z"
+  }
+]

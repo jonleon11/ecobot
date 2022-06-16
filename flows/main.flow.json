@@ -1,0 +1,159 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "event.nlu.intent.name === 'none'",
+          "node": "G-Choice"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "skill-cdfb67",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "G-Choice",
+      "flow": "skills/choice-cdfb67.flow.json",
+      "next": [
+        {
+          "caption": "User picked [1]",
+          "condition": "temp['skill-choice-ret-kr0mr9min6'] == \"1\"",
+          "node": "A-Choice"
+        },
+        {
+          "caption": "User picked [2]",
+          "condition": "temp['skill-choice-ret-kr0mr9min6'] == \"2\"",
+          "node": "S-Info"
+        },
+        {
+          "caption": "User picked [3]",
+          "condition": "temp['skill-choice-ret-kr0mr9min6'] == \"3\"",
+          "node": "V-Info"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-716e83",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "A-Choice",
+      "flow": "skills/choice-716e83.flow.json",
+      "next": [
+        {
+          "caption": "User picked [1]",
+          "condition": "temp['skill-choice-ret-ekv0dqfjws'] == \"1\"",
+          "node": "Tasa"
+        },
+        {
+          "caption": "User picked [2]",
+          "condition": "temp['skill-choice-ret-ekv0dqfjws'] == \"2\"",
+          "node": "Info_Bancos"
+        },
+        {
+          "caption": "User picked [3]",
+          "condition": "temp['skill-choice-ret-ekv0dqfjws'] == \"3\"",
+          "node": "Reporte_Pago"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "c92c1eea33",
+      "name": "Tasa",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-rEdS6r"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "5679ed1c00",
+      "name": "Info_Bancos",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-cPEKo_"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "2110021ee5",
+      "name": "S-Info",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-8-pH6N"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "69e09b4913",
+      "name": "V-Info",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-kkARlQ"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "7faaf48af6",
+      "name": "Reporte_Pago",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text--lr_B-"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    }
+  ]
+}
